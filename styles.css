@@ -1,0 +1,32 @@
+/* Lost Lantern Digital website: page basics. Most styling is written on each element. */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #151412; -webkit-font-smoothing: antialiased; }
+img, svg { max-width: 100%; }
+a { color: #F1C46A; }
+a:hover { color: #D89A3D; }
+a:focus-visible, button:focus-visible { outline: 2px solid #F1C46A; outline-offset: 3px; }
+section[id] { scroll-margin-top: 16px; }
+
+/* "See it in action" buttons on the Morrow page */
+.demo-tab {
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  width: 100%; min-height: 44px; padding: 18px 22px; border-radius: 16px;
+  cursor: pointer; font-family: inherit; color: inherit;
+  background: #1C1A17; border: 1px solid #3A3630;
+}
+.demo-tab[aria-pressed="true"] {
+  background: #2A2318; border-color: #D89A3D; box-shadow: 0 0 24px rgba(216,154,61,0.18);
+}
+
+@media (max-width: 600px) {
+  header nav { gap: 16px !important; }
+  /* On phones the header keeps only its buttons; the page sections are a scroll away */
+  header nav a[href^="#"]:not(:last-child) { display: none; }
+  section { padding-left: 20px !important; padding-right: 20px !important; }
+}
+
+/* Header logo: a little smaller on phones so the menu button still fits */
+@media (max-width: 600px) {
+  .site-logo { height: 54px !important; }
+}

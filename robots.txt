@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lostlantern.co.za/sitemap.xml
