@@ -10,7 +10,7 @@
 <meta property="og:title" content="Morrow · Bookings for barbers, tutors, trainers and coaches">
 <meta property="og:description" content="Morrow keeps your bookings, clients, staff and payments in one place. Free during early access.">
 <meta property="og:url" content="https://lostlantern.co.za/morrow/">
-<meta property="og:image" content="https://lostlantern.co.za/brand/lost-lantern-logo-on-dark.png">
+<meta property="og:image" content="https://lostlantern.co.za/morrow/media/morrow-demo-poster.jpg">
 <meta name="theme-color" content="#151412">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,6 +46,7 @@
 <a href="#in-action" style="border: 1px solid #3A3630; color: #F4F0E8; text-decoration: none; font-weight: 600; font-size: 15px; padding: 17px 28px; border-radius: 999px">See it in action</a>
 </div>
 <span style="font-size: 14px; color: #AAA39A">Free during early access · No card needed</span>
+<img src="/morrow/media/dashboard.webp" width="1400" height="691" alt="The Morrow dashboard: today's sales, bookings, staff working, a sales chart and today's bookings" style="display: block; width: 100%; max-width: 1100px; height: auto; margin-top: 30px; border-radius: 14px; box-shadow: 0 30px 80px rgba(0,0,0,0.55), 0 0 70px rgba(216,154,61,0.16)">
 </section>
 
 <section style="background: #1C1A17; padding: 88px 24px">
@@ -71,71 +72,99 @@
 </div>
 </section>
 
-<section id="in-action" style="max-width: 1200px; margin: 0 auto; padding: 100px 24px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
-<div style="flex: 1 1 440px; display: flex; flex-direction: column; gap: 22px; align-items: flex-start">
+<section id="in-action" style="max-width: 1200px; margin: 0 auto; padding: 100px 24px 40px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 22px">
 <span style="display: inline-flex; border: 1px solid #5A4826; background: #1F1B15; color: #F1C46A; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; padding: 8px 14px; border-radius: 999px">SEE IT IN ACTION</span>
+<h2 style="margin: 0; font-family: 'Cinzel', serif; font-size: 38px; font-weight: 700; line-height: 1.15">Morrow in 30 seconds</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #AAA39A; max-width: 620px">A quick look around a busy barbershop running on Morrow.</p>
+<video controls muted playsinline preload="metadata" poster="/morrow/media/morrow-demo-poster.jpg" width="1280" height="720" style="display: block; width: 100%; max-width: 1000px; height: auto; margin-top: 12px; border-radius: 16px; border: 1px solid #3A3630; background: #151412; box-shadow: 0 30px 80px rgba(0,0,0,0.55), 0 0 70px rgba(216,154,61,0.14)">
+<source src="/morrow/media/morrow-demo.mp4" type="video/mp4">
+<a href="/morrow/media/morrow-demo.mp4">Watch the video</a>
+</video>
+</section>
+
+<section id="on-your-phone" style="max-width: 1200px; margin: 0 auto; padding: 60px 24px 100px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 1 1 440px; display: flex; flex-direction: column; gap: 22px; align-items: flex-start">
+<span style="display: inline-flex; border: 1px solid #5A4826; background: #1F1B15; color: #F1C46A; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; padding: 8px 14px; border-radius: 999px">ON YOUR PHONE</span>
 <h2 style="margin: 0; font-family: 'Cinzel', serif; font-size: 38px; font-weight: 700; line-height: 1.15">Your whole day, in your pocket</h2>
-<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #AAA39A">Tap through to see how Morrow works.</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #AAA39A">Nothing to install. Open Morrow in your phone’s browser and tap through the same things you see on the computer.</p>
 <div style="display: flex; flex-direction: column; gap: 12px; width: 100%">
-<button type="button" class="demo-tab" data-tab="calendar" aria-pressed="true">
+<button type="button" class="demo-tab" data-tab="dashboard" aria-pressed="true">
 <span style="display: flex; flex-direction: column; gap: 4px; text-align: left">
-<span style="font-family: 'Cinzel', serif; font-size: 17px; font-weight: 700; color: #F4F0E8">Today’s bookings</span>
-<span style="font-size: 14px; color: #AAA39A">Every appointment, in order</span>
+<span style="font-family: 'Cinzel', serif; font-size: 17px; font-weight: 700; color: #F4F0E8">Your day at a glance</span>
+<span style="font-size: 14px; color: #AAA39A">Sales, bookings and who’s in today</span>
 </span>
 <span style="font-size: 20px; color: #D89A3D" aria-hidden="true">›</span>
 </button>
-<button type="button" class="demo-tab" data-tab="clients" aria-pressed="false">
+<button type="button" class="demo-tab" data-tab="day" aria-pressed="false">
 <span style="display: flex; flex-direction: column; gap: 4px; text-align: left">
-<span style="font-family: 'Cinzel', serif; font-size: 17px; font-weight: 700; color: #F4F0E8">Your clients</span>
-<span style="font-size: 14px; color: #AAA39A">Who comes in, and how often</span>
+<span style="font-family: 'Cinzel', serif; font-size: 17px; font-weight: 700; color: #F4F0E8">Today’s bookings</span>
+<span style="font-size: 14px; color: #AAA39A">Every appointment, in order, with who paid</span>
+</span>
+<span style="font-size: 20px; color: #D89A3D" aria-hidden="true">›</span>
+</button>
+<button type="button" class="demo-tab" data-tab="calendar" aria-pressed="false">
+<span style="display: flex; flex-direction: column; gap: 4px; text-align: left">
+<span style="font-family: 'Cinzel', serif; font-size: 17px; font-weight: 700; color: #F4F0E8">The whole month</span>
+<span style="font-size: 14px; color: #AAA39A">How busy each day is, plus leave and events</span>
 </span>
 <span style="font-size: 20px; color: #D89A3D" aria-hidden="true">›</span>
 </button>
 <button type="button" class="demo-tab" data-tab="sales" aria-pressed="false">
 <span style="display: flex; flex-direction: column; gap: 4px; text-align: left">
-<span style="font-family: 'Cinzel', serif; font-size: 17px; font-weight: 700; color: #F4F0E8">Daily takings</span>
-<span style="font-size: 14px; color: #AAA39A">Cash and card, added up for you</span>
+<span style="font-family: 'Cinzel', serif; font-size: 17px; font-weight: 700; color: #F4F0E8">Sales, added up</span>
+<span style="font-size: 14px; color: #AAA39A">This week, this month and this year</span>
 </span>
 <span style="font-size: 20px; color: #D89A3D" aria-hidden="true">›</span>
 </button>
 </div>
 </div>
 <div style="flex: 1 1 360px; display: flex; flex-direction: column; align-items: center; gap: 14px">
-<div style="width: 300px; height: 600px; border-radius: 44px; border: 2px solid #5A4826; background: #0E0D0B; padding: 14px; box-sizing: border-box; box-shadow: 0 0 70px rgba(216,154,61,0.2)">
-<div style="width: 100%; height: 100%; border-radius: 32px; background: #151412; overflow: hidden; display: flex; flex-direction: column">
-<div style="display: flex; justify-content: center; padding-top: 10px"><span style="width: 90px; height: 24px; border-radius: 12px; background: #0E0D0B"></span></div>
-<div style="padding: 16px 18px 12px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #2A2722">
-<span style="font-family: 'Cinzel', serif; font-size: 15px; font-weight: 700; color: #F1C46A">Morrow</span>
-<span style="font-size: 12px; color: #AAA39A" id="demo-title">Today</span>
-</div>
-<div style="flex-grow: 1; padding: 16px 16px 0; display: flex; flex-direction: column; gap: 10px; overflow: hidden">
-<div class="demo-screen" data-screen="calendar" style="display: flex; flex-direction: column; gap: 10px">
-<div style="font-size: 11px; letter-spacing: 0.14em; color: #AAA39A">TODAY · 4 BOOKINGS</div>
-<div style="display: flex; gap: 10px; background: #292621; border: 1px solid #3A3630; border-radius: 12px; padding: 12px"><span style="font-size: 13px; font-weight: 600; color: #F1C46A; width: 44px">09:00</span><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 13px; font-weight: 600">Fade</span><span style="font-size: 12px; color: #AAA39A">Sipho M.</span></span></div>
-<div style="display: flex; gap: 10px; background: #292621; border: 1px solid #3A3630; border-radius: 12px; padding: 12px"><span style="font-size: 13px; font-weight: 600; color: #F1C46A; width: 44px">10:00</span><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 13px; font-weight: 600">Beard trim</span><span style="font-size: 12px; color: #AAA39A">Johan K.</span></span></div>
-<div style="display: flex; gap: 10px; background: #292621; border: 1px solid #3A3630; border-radius: 12px; padding: 12px"><span style="font-size: 13px; font-weight: 600; color: #F1C46A; width: 44px">11:30</span><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 13px; font-weight: 600">Kids cut</span><span style="font-size: 12px; color: #AAA39A">Ayanda N.</span></span></div>
-<div style="display: flex; gap: 10px; background: #292621; border: 1px solid #3A3630; border-radius: 12px; padding: 12px"><span style="font-size: 13px; font-weight: 600; color: #F1C46A; width: 44px">14:00</span><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 13px; font-weight: 600">Fade and beard</span><span style="font-size: 12px; color: #AAA39A">Pieter V.</span></span></div>
-</div>
-<div class="demo-screen" data-screen="clients" style="display: none; flex-direction: column; gap: 10px">
-<div style="font-size: 11px; letter-spacing: 0.14em; color: #AAA39A">YOUR CLIENTS</div>
-<div style="display: flex; gap: 10px; align-items: center; border-bottom: 1px solid #2A2722; padding: 8px 0"><span style="width: 32px; height: 32px; border-radius: 16px; background: #2E2718; color: #F1C46A; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center">SM</span><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 13px; font-weight: 600">Sipho M.</span><span style="font-size: 12px; color: #AAA39A">Last visit 2 weeks ago</span></span></div>
-<div style="display: flex; gap: 10px; align-items: center; border-bottom: 1px solid #2A2722; padding: 8px 0"><span style="width: 32px; height: 32px; border-radius: 16px; background: #2E2718; color: #F1C46A; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center">JK</span><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 13px; font-weight: 600">Johan K.</span><span style="font-size: 12px; color: #AAA39A">Last visit 3 weeks ago</span></span></div>
-<div style="display: flex; gap: 10px; align-items: center; border-bottom: 1px solid #2A2722; padding: 8px 0"><span style="width: 32px; height: 32px; border-radius: 16px; background: #2E2718; color: #F1C46A; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center">AN</span><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 13px; font-weight: 600">Ayanda N.</span><span style="font-size: 12px; color: #AAA39A">Last visit 1 month ago</span></span></div>
-<div style="display: flex; gap: 10px; align-items: center; border-bottom: 1px solid #2A2722; padding: 8px 0"><span style="width: 32px; height: 32px; border-radius: 16px; background: #2E2718; color: #F1C46A; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center">PV</span><span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 13px; font-weight: 600">Pieter V.</span><span style="font-size: 12px; color: #AAA39A">Last visit 5 days ago</span></span></div>
-</div>
-<div class="demo-screen" data-screen="sales" style="display: none; flex-direction: column; gap: 10px">
-<div style="font-size: 11px; letter-spacing: 0.14em; color: #AAA39A">TODAY'S TAKINGS</div>
-<div style="background: #2A2318; border: 1px solid #5A4826; border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 4px"><span style="font-size: 12px; color: #AAA39A">Total</span><span style="font-family: 'Cinzel', serif; font-size: 28px; font-weight: 700">R1,450</span></div>
-<div style="display: flex; gap: 10px"><div style="flex: 1; background: #292621; border: 1px solid #3A3630; border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; color: #AAA39A">Cash</span><span style="font-size: 16px; font-weight: 600">R600</span></div><div style="flex: 1; background: #292621; border: 1px solid #3A3630; border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; color: #AAA39A">Card</span><span style="font-size: 16px; font-weight: 600">R850</span></div></div>
-<div style="font-size: 12px; color: #AAA39A">4 bookings · 1 staff member working</div>
+<div style="width: 300px; max-width: 100%; border-radius: 46px; border: 2px solid #5A4826; background: #0E0D0B; padding: 12px; box-sizing: border-box; box-shadow: 0 0 70px rgba(216,154,61,0.2); position: relative">
+<span style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); width: 76px; height: 20px; border-radius: 10px; background: #0E0D0B; z-index: 1"></span>
+<div style="border-radius: 34px; overflow: hidden; background: #F4F6FA">
+<img class="demo-screen" data-screen="dashboard" src="/morrow/media/dashboard-phone.webp" width="540" height="1011" alt="Morrow on a phone: the dashboard with today's sales and bookings" style="display: block; width: 100%; height: auto">
+<img class="demo-screen" data-screen="day" src="/morrow/media/day-phone.webp" width="540" height="1011" alt="Morrow on a phone: a day's bookings with times, services and payments" hidden style="display: block; width: 100%; height: auto">
+<img class="demo-screen" data-screen="calendar" src="/morrow/media/calendar-phone.webp" width="540" height="1011" alt="Morrow on a phone: the month calendar showing how many bookings each day has" hidden style="display: block; width: 100%; height: auto">
+<img class="demo-screen" data-screen="sales" src="/morrow/media/sales-phone.webp" width="540" height="1011" alt="Morrow on a phone: sales for the last 7 days, this month and this year" hidden style="display: block; width: 100%; height: auto">
 </div>
 </div>
-<div style="padding: 16px">
-<span style="display: block; text-align: center; background: #D89A3D; color: #151412; font-weight: 700; font-size: 12px; letter-spacing: 0.12em; padding: 14px; border-radius: 999px" id="demo-button">NEW BOOKING</span>
+<span style="font-size: 12.5px; color: #8C857B">Real Morrow screens, with a made-up barbershop</span>
 </div>
+</section>
+
+<section id="closer-look" style="border-top: 1px solid #2A2722; padding: 96px 24px">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 14px; align-items: flex-start">
+<span style="display: inline-flex; border: 1px solid #5A4826; background: #1F1B15; color: #F1C46A; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; padding: 8px 14px; border-radius: 999px">A CLOSER LOOK</span>
+<h2 style="margin: 0; font-family: 'Cinzel', serif; font-size: 36px; font-weight: 700">Everything the front desk needs</h2>
+<p style="margin: 0; font-size: 16px; color: #AAA39A">Tap a picture to see it full size.</p>
 </div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 36px 28px">
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 12px">
+<a href="/morrow/media/calendar.webp" style="display: block"><img src="/morrow/media/calendar.webp" width="1400" height="691" loading="lazy" alt="Morrow calendar page" style="display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid #3A3630; box-shadow: 0 14px 40px rgba(0,0,0,0.45)"></a>
+<figcaption style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Cinzel', serif; font-size: 18px; font-weight: 700; color: #F4F0E8">Calendar</span><span style="font-size: 15px; line-height: 1.55; color: #AAA39A">The month at a glance, and every booking for the day you pick.</span></figcaption>
+</figure>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 12px">
+<a href="/morrow/media/appointments.webp" style="display: block"><img src="/morrow/media/appointments.webp" width="1400" height="691" loading="lazy" alt="Morrow bookings page" style="display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid #3A3630; box-shadow: 0 14px 40px rgba(0,0,0,0.45)"></a>
+<figcaption style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Cinzel', serif; font-size: 18px; font-weight: 700; color: #F4F0E8">Bookings</span><span style="font-size: 15px; line-height: 1.55; color: #AAA39A">New or regular customers. Morrow won’t let two bookings clash.</span></figcaption>
+</figure>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 12px">
+<a href="/morrow/media/wages.webp" style="display: block"><img src="/morrow/media/wages.webp" width="1400" height="691" loading="lazy" alt="Morrow wages page" style="display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid #3A3630; box-shadow: 0 14px 40px rgba(0,0,0,0.45)"></a>
+<figcaption style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Cinzel', serif; font-size: 18px; font-weight: 700; color: #F4F0E8">Wages</span><span style="font-size: 15px; line-height: 1.55; color: #AAA39A">Daily rates and commission, with leave and public holidays counted for you.</span></figcaption>
+</figure>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 12px">
+<a href="/morrow/media/analytics.webp" style="display: block"><img src="/morrow/media/analytics.webp" width="1400" height="691" loading="lazy" alt="Morrow analytics page" style="display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid #3A3630; box-shadow: 0 14px 40px rgba(0,0,0,0.45)"></a>
+<figcaption style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Cinzel', serif; font-size: 18px; font-weight: 700; color: #F4F0E8">Analytics</span><span style="font-size: 15px; line-height: 1.55; color: #AAA39A">Sales by day, month and year, split into cash and card.</span></figcaption>
+</figure>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 12px">
+<a href="/morrow/media/staff.webp" style="display: block"><img src="/morrow/media/staff.webp" width="1400" height="691" loading="lazy" alt="Morrow staff page" style="display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid #3A3630; box-shadow: 0 14px 40px rgba(0,0,0,0.45)"></a>
+<figcaption style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Cinzel', serif; font-size: 18px; font-weight: 700; color: #F4F0E8">Staff</span><span style="font-size: 15px; line-height: 1.55; color: #AAA39A">Each person’s pay and working hours, and logins with their own permissions.</span></figcaption>
+</figure>
+<figure style="margin: 0; display: flex; flex-direction: column; gap: 12px">
+<a href="/morrow/media/leave.webp" style="display: block"><img src="/morrow/media/leave.webp" width="1400" height="691" loading="lazy" alt="Morrow leave and holidays page" style="display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid #3A3630; box-shadow: 0 14px 40px rgba(0,0,0,0.45)"></a>
+<figcaption style="display: flex; flex-direction: column; gap: 4px"><span style="font-family: 'Cinzel', serif; font-size: 18px; font-weight: 700; color: #F4F0E8">Leave and holidays</span><span style="font-size: 15px; line-height: 1.55; color: #AAA39A">Staff ask for leave, you approve it, and the balances keep themselves.</span></figcaption>
+</figure>
 </div>
-<span style="font-size: 12.5px; color: #8C857B">Sample data for illustration</span>
 </div>
 </section>
 

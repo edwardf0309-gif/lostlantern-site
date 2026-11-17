@@ -30,3 +30,6 @@ section[id] { scroll-margin-top: 16px; }
 @media (max-width: 600px) {
   .site-logo { height: 54px !important; }
 }
+
+/* Morrow page pictures */
+img[hidden] { display: none !important; }
