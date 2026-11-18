@@ -45,7 +45,7 @@ img[hidden] { display: none !important; }
 
 /* WhatsApp button that stays in the bottom corner */
 .wa-float {
-  position: fixed; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom)); z-index: 50;
+  position: fixed; right: 20px; bottom: calc(84px + env(safe-area-inset-bottom)); z-index: 50;
   display: inline-flex; align-items: center; gap: 9px;
   min-height: 48px; padding: 0 20px 0 16px; border-radius: 999px;
   background: #25D366; color: #0B2E17; text-decoration: none;
@@ -83,7 +83,7 @@ body.viewer-open { overflow: hidden; }
   #in-action { padding-bottom: 16px !important; }
   #on-your-phone { padding-top: 24px !important; }
   /* A round WhatsApp button on phones, so it doesn't cover the page */
-  .wa-float { padding: 0; width: 52px; height: 52px; justify-content: center; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom)); }
+  .wa-float { padding: 0; width: 52px; height: 52px; justify-content: center; right: 16px; bottom: calc(76px + env(safe-area-inset-bottom)); }
   .wa-float span { display: none; }
   .wa-float svg { width: 26px; height: 26px; }
 }
