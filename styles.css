@@ -33,3 +33,12 @@ section[id] { scroll-margin-top: 16px; }
 
 /* Morrow page pictures */
 img[hidden] { display: none !important; }
+
+/* "Back to Lost Lantern Digital" bar at the top of app pages */
+.home-link {
+  display: inline-flex; align-items: center; gap: 10px;
+  min-height: 44px; font-size: 14px; color: #D8D2C8; text-decoration: none;
+}
+.home-link:hover { color: #F1C46A; }
+.home-arrow { color: #D89A3D; font-size: 16px; transition: transform 0.15s ease; }
+.home-link:hover .home-arrow { transform: translateX(-3px); }
